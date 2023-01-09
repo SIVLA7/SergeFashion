@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <title>Портфолио cтудии Sivenkov</title>
+
+    <!-- Inline styles BEGIN -->
+    <!--[if !IE]><!-->
+    <style>@media(min-width:768px){body{opacity: 0;}}</style>
+    <!--<![endif]-->
+    <!-- Inline styles END -->
+
+    <!-- Meta BEGIN -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta property="og:image" content="img/preview-link.png">
+    <meta property="vk:image"  content="img/preview-link-vk.png">
+    <meta name="yandex-verification" content="4351f78ac5030f77" />
+    <meta name="description" content="Портфолио студии Сивенков. Пример для компании Serge.">
+    <meta name="keywords" content="Разработка сайтов, дизайн сайтов, верстка, ui, ux, пример работы, sivenkov, веб-дизайн студия">
+    <!--Meta END-->
+
+    <!-- Favicon BEGIN -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#18376a">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#18376a">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon END -->
+
+    <!-- Styles BEGIN -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant:700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!--[if IE]><link rel='stylesheet' href='css/styles-ie.min.css'><![endif]-->
+    <!-- Styles END -->
+  </head>
+  <body>
+
+    <!--[if lt IE 10]>
+    <div class="ie-message">
+
+      <div class="header">
+        <div class="container">
+
+          <div class="header_content">
+            <div class="header__item header__item_address">
+              <span class="header__item-text text-accent text-qanelas-semibold d-md-none">Минск, Ул. Жилуновича, 2 «В», пом. 4</span>
+            </div>
+
+            <a href="#" class="header__logo logo responsive-image" aria-label="Перейти на главную страницу">
+              <img src="img/logo.png" alt="">
+            </a>
+
+            <a
+              href="tel:+375291382469"
+              class="header__item header__item_phone"
+              aria-label="Позвонить по номеру +375 29 138-24-69">
+              <span class="header__item-wrap-icon responsive-image d-md-block d-none">
+                <svg class="header__item-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.0744 20.0479C15.2423 20.0479 14.2373 19.8433 13.132 19.4342C10.7089 18.5381 8.0726 16.7669 5.70873 14.4481C3.34418 12.1285 1.53864 9.54177 0.624439 7.16485C-0.206349 5.00371 -0.208367 3.22992 0.61973 2.41825C0.738798 2.30145 0.859885 2.17607 0.985008 2.04674C1.74045 1.26741 2.59411 0.390411 3.7256 0.430004C4.50526 0.461679 5.26071 0.9368 6.03431 1.8811C8.32016 4.6698 7.28958 5.6636 6.09688 6.81577L5.88632 7.02033C5.69124 7.2117 5.32259 8.09793 8.75203 11.4621C9.87141 12.5601 10.826 13.3639 11.5888 13.8502C12.0691 14.1564 12.9282 14.6196 13.2807 14.2739L13.4926 14.064C14.6658 12.8967 15.6789 11.889 18.5197 14.1293C19.4823 14.8882 19.966 15.6286 19.9983 16.3947C20.0447 17.504 19.1439 18.3434 18.3488 19.0838C18.2176 19.2065 18.0898 19.3253 17.9708 19.4415C17.5597 19.8453 16.9025 20.0479 16.0744 20.0479ZM3.64487 1.08857C2.84099 1.08857 2.11515 1.83821 1.47272 2.5014C1.34356 2.6347 1.21844 2.76404 1.09533 2.8848C0.478462 3.48926 0.541024 5.07761 1.25409 6.93257C2.13533 9.22371 3.88637 11.7273 6.185 13.9822C8.48295 16.2357 11.0338 17.9534 13.3701 18.8172C15.2611 19.518 16.8803 19.5774 17.4958 18.9736C17.6189 18.8528 17.7508 18.7301 17.8867 18.6041C18.5775 17.96 19.3612 17.2302 19.3269 16.4205C19.3034 15.8642 18.8903 15.2657 18.0992 14.6421C15.732 12.7746 15.0701 13.4338 13.9722 14.5259L13.7569 14.7391C13.2322 15.2544 12.3799 15.1403 11.2229 14.4025C10.4203 13.8905 9.42877 13.0577 8.27711 11.9273C5.4309 9.13594 4.52073 7.42748 5.41139 6.55181L5.62598 6.34394C6.742 5.267 7.41537 4.61701 5.51095 2.29354C4.8739 1.51816 4.26443 1.11299 3.69734 1.08923C3.67985 1.08857 3.66236 1.08857 3.64487 1.08857Z" fill="#123D77"/>
+                </svg>
+              </span>
+
+              <span class="header__item-text text-accent text-qanelas-semibold d-md-none">+375 29 138-24-69</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="ie-message__content">
+        <span class="text-accent text-cormorant-bold d-block ie-message__title">К сожалению<br class="d-none d-sm-inline-block"> ваш бразуер устарел!</span>
+          <p class="ie-message__text">Вы пользуетесь устаревшей версией браузера Internet Explorer. Данная версия браузера не поддреживает многие современные технологии, из-за чего многие страницы отображаются<br> некорректно, а главное - на сайтах могут работать не все функции.</p>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <div class="container">
+          <a class="footer__text-item footer__link" href="mailto:franchise@serge-fashion.by">franchise@serge-fashion.by</a>
+          <span class="footer__text-item d-md-block d-none">Минск, Ул. Жилуновича, 2 «В», пом. 4 </span>
+
+        </div>
+      </div>
+    </div>
+    <![endif]-->
+
+
+    <!--[if !IE]><!-->
+    <!-- Header BEGIN -->
+    <header class="header">
+      <div class="container">
+
+        <div class="header_content">
+          <div class="header__item header__item_address d-md-none">
+            <span class="header__item-wrap-icon">
+              <svg class="header__item-svg" width="16" height="22" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.00203 0.761963C3.5829 0.766407 0.00226512 4.28068 0 8.61567C0 12.8334 7.38016 21.0063 7.69315 21.3497C7.84487 21.5159 8.10525 21.53 8.27472 21.3812C8.286 21.3713 8.2967 21.3608 8.30685 21.3497C8.61984 21.0022 16 12.8334 16 8.61567C15.9977 4.28224 12.4195 0.768629 8.00203 0.761963ZM8.00203 20.4649C6.59354 18.8489 0.823678 12.0658 0.823678 8.61163C0.823678 4.7226 4.03752 1.56996 8.00203 1.56996C11.9666 1.56996 15.1804 4.7226 15.1804 8.61163C15.1804 12.0658 9.41052 18.857 8.00203 20.4649Z" fill="#123D77"/>
+                <path d="M8.14627 4.70093C5.75122 4.70315 3.81146 6.60961 3.81372 8.95906C3.81599 11.3085 5.75946 13.2113 8.15451 13.2091C10.548 13.2069 12.4871 11.3029 12.4871 8.95502C12.4825 6.60583 10.5411 4.70315 8.14627 4.70093ZM8.14627 12.4052C6.2061 12.4052 4.63328 10.8623 4.63328 8.95906C4.63328 7.05583 6.2061 5.51296 8.14627 5.51296C10.0864 5.51296 11.6593 7.05583 11.6593 8.95906C11.657 10.8614 10.0855 12.4029 8.14627 12.4052Z" fill="#123D77"/>
+              </svg>
+            </span>
+
+            <address class="header__item-text text-accent text-qanelas-semibold">Минск, Ул. Жилуновича, 2 «В», пом. 4</address>
+          </div>
+
+          <a href="#" class="header__logo logo responsive-image" aria-label="Перейти на главную страницу">
+            <picture>
+              <source srcset="img/webp/logo.webp" type="image/webp">
+              <source srcset="img/logo.png" type="image/png">
+              <img
+                src="img/logo.png"
+                alt="">
+            </picture>
+          </a>
+
+          <a
+            href="tel:+375291382469"
+            class="header__item header__item_phone"
+            aria-label="Позвонить по номеру +375 29 138-24-69">
+            <span class="header__item-wrap-icon responsive-image">
+              <svg class="header__item-svg" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.0744 20.0479C15.2423 20.0479 14.2373 19.8433 13.132 19.4342C10.7089 18.5381 8.0726 16.7669 5.70873 14.4481C3.34418 12.1285 1.53864 9.54177 0.624439 7.16485C-0.206349 5.00371 -0.208367 3.22992 0.61973 2.41825C0.738798 2.30145 0.859885 2.17607 0.985008 2.04674C1.74045 1.26741 2.59411 0.390411 3.7256 0.430004C4.50526 0.461679 5.26071 0.9368 6.03431 1.8811C8.32016 4.6698 7.28958 5.6636 6.09688 6.81577L5.88632 7.02033C5.69124 7.2117 5.32259 8.09793 8.75203 11.4621C9.87141 12.5601 10.826 13.3639 11.5888 13.8502C12.0691 14.1564 12.9282 14.6196 13.2807 14.2739L13.4926 14.064C14.6658 12.8967 15.6789 11.889 18.5197 14.1293C19.4823 14.8882 19.966 15.6286 19.9983 16.3947C20.0447 17.504 19.1439 18.3434 18.3488 19.0838C18.2176 19.2065 18.0898 19.3253 17.9708 19.4415C17.5597 19.8453 16.9025 20.0479 16.0744 20.0479ZM3.64487 1.08857C2.84099 1.08857 2.11515 1.83821 1.47272 2.5014C1.34356 2.6347 1.21844 2.76404 1.09533 2.8848C0.478462 3.48926 0.541024 5.07761 1.25409 6.93257C2.13533 9.22371 3.88637 11.7273 6.185 13.9822C8.48295 16.2357 11.0338 17.9534 13.3701 18.8172C15.2611 19.518 16.8803 19.5774 17.4958 18.9736C17.6189 18.8528 17.7508 18.7301 17.8867 18.6041C18.5775 17.96 19.3612 17.2302 19.3269 16.4205C19.3034 15.8642 18.8903 15.2657 18.0992 14.6421C15.732 12.7746 15.0701 13.4338 13.9722 14.5259L13.7569 14.7391C13.2322 15.2544 12.3799 15.1403 11.2229 14.4025C10.4203 13.8905 9.42877 13.0577 8.27711 11.9273C5.4309 9.13594 4.52073 7.42748 5.41139 6.55181L5.62598 6.34394C6.742 5.267 7.41537 4.61701 5.51095 2.29354C4.8739 1.51816 4.26443 1.11299 3.69734 1.08923C3.67985 1.08857 3.66236 1.08857 3.64487 1.08857Z" fill="#123D77"/>
+              </svg>
+            </span>
+
+            <span class="header__item-text text-accent text-qanelas-semibold d-md-none">+375 29 138-24-69</span>
+          </a>
+        </div>
+
+      </div>
+    </header>
+    <!-- Header END -->
+
+
+
+    <!-- Main banner BEGIN -->
+    <div class="main-banner">
+      <div class="main-banner__wrap-slide">
+
+        <div class="main-banner__slide main-banner__slide_active">
+          <div class="main-banner__slide-img main-banner__slide-img_desktop background-image" style="background-image: url(img/main-background-1-desktop.jpg);"></div>
+          <div class="main-banner__slide-img main-banner__slide-img_mobile background-image" style="background-image: url(img/main-background-1-mobile.jpg);"></div>
+        </div>
+
+        <div class="main-banner__slide">
+          <div class="main-banner__slide-img main-banner__slide-img_desktop background-image" style="background-image: url(img/main-background-2-desktop.jpg);"></div>
+          <div class="main-banner__slide-img main-banner__slide-img_mobile background-image" style="background-image: url(img/main-background-2-mobile.jpg);"></div>
+        </div>
+
+        <div class="main-banner__slide">
+          <div class="main-banner__slide-img main-banner__slide-img_desktop background-image" style="background-image: url(img/main-background-3-desktop.jpg);"></div>
+          <div class="main-banner__slide-img main-banner__slide-img_mobile background-image" style="background-image: url(img/main-background-3-mobile.jpg);"></div>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="main-banner__content">
+          
+          <div class="main-banner__content-left">
+            <span
+              class="main-banner__title text-accent text-cormorant-bold d-block wow fadeInUp"
+              data-wow-delay=".3s"
+              data-wow-duration="1s">
+              Хочешь осуществить<br> свою давнюю мечту<br> и открыть магазин SERGE?
+            </span>
+
+            <p
+              class="main-banner__subtext text-qanelas-regular d-block wow fadeInUp"
+              data-wow-delay=".8s"
+              data-wow-delay-mobile=".3s"
+              data-wow-duration=".8s">
+              Откройте свой собственный магазин за 30 дней<br> и зарабатывайте уже в первый месяц
+            </p>
+
+            <span
+              class="btn main-banner__btn btn-popup wow fadeInUp"
+              role="button"
+              data-popup-key="business-plan"
+              data-wow-delay="1.1s"
+              data-wow-delay-mobile=".3s"
+              data-wow-duration=".6s">
+            Получить бизнес-план</span>
+          </div>
+          
+          <div class="main-banner__content-right">
+            <a
+              aria-label="Посмотреть видео"
+              href="https://www.youtube.com/watch?v=bdyJdX201mI"
+              class="main-banner__btn-video btn-magnific-popup wow fadeInUp"
+              data-wow-delay="1.3s"
+              data-wow-delay-mobile=".3s"
+              data-wow-duration=".6s">
+              <span class="main-banner__btn-video-text text-accent text-cormorant-bold-italic">Посмотреть шоурум</span>
+
+              <div class="main-banner__btn-video-icon">
+                <div class="main-banner__btn-video-icon-animation"></div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Main banner END -->
+
+
+
+    <!-- Our plus BEGIN -->
+    <div class="our-plus wrap-items-counter">
+      <div class="container">
+        <ul class="our-plus__content">
+
+          <li class="our-plus__item">
+            <span 
+              class="our-plus__number text-accent text-cormorant-bold-italic item-counter"
+              data-from="0"
+              data-to="20">0</span>
+
+            <p class="our-plus__text text-cormorant-bold-italic">лет на рынке</p>
+          </li>
+
+          <li class="our-plus__item">
+            <span class="our-plus__number text-accent text-cormorant-bold-italic">№1</span>
+            <p class="our-plus__text text-cormorant-bold-italic">бельевой трикотаж<br> в Беларуси</p>
+          </li>
+
+          <li class="our-plus__item">
+            <span
+            class="our-plus__number text-accent text-cormorant-bold-italic item-counter"
+            data-from="0"
+            data-to="200">0</span>
+            <p class="our-plus__text text-cormorant-bold-italic">точек продаж<br> в семи странах мира</p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- Our plus END -->
+
+
+
+    <!-- Franchise plus BEGIN -->
+    <div class="franchise-plus">
+      <div class="container">
+
+        <span
+          class="sec-title franchise-plus__title wow fadeInUp"
+          data-wow-delay=".1s"
+          data-wow-offset="50"
+          data-wow-duration=".7s">Преимущества франшизы<br> от SERGE?</span>
+
+        <div class="franchise-plus__content">
+          <div class="franchise-plus__wrap-img responsive-image">
+            <picture>
+              <source srcset="." data-srcset="img/webp/girl-1.webp" type="image/webp">
+              <source srcset="." data-srcset="img/girl-1.jpg" type="image/jpeg">
+              <img
+                data-wow-delay=".1s"
+                data-wow-offset="100"
+                data-wow-duration="1.4s"
+                class="wow fadeInLeft lazy"
+                src="."
+                data-src="img/girl-1.jpg"
+                alt="">
+            </picture>
+          </div>
+          
+          <div class="franchise-plus__wrap-list">
+            <ul class="franchise-plus__list">
+              <li class="franchise-plus__list-item">
+                <span
+                  class="franchise-plus__list-title text-accent text-cormorant-bold-italic wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Магазин</span>
+                <p
+                  class="franchise-plus__list-text text-qanelas-regular wow fadeInUpFull"
+                  data-wow-delay=".2s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Торговые площадки от 20 кв.м.</p>
+              </li>
+
+              <li class="franchise-plus__list-item">
+                <span class="franchise-plus__list-title text-accent text-cormorant-bold-italic wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Рекомендации</span>
+                <p class="franchise-plus__list-text text-qanelas-regular wow fadeInUpFull"
+                  data-wow-delay=".2s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Сопровождение и постоянное обучение</p>
+              </li>
+
+              <li class="franchise-plus__list-item">
+                <span class="franchise-plus__list-title text-accent text-cormorant-bold-italic wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Качество</span>
+                <p class="franchise-plus__list-text text-qanelas-regular wow fadeInUpFull"
+                  data-wow-delay=".2s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Востребованный продукт высокого качества</p>
+              </li>
+
+              <li class="franchise-plus__list-item">
+                <span class="franchise-plus__list-title text-accent text-cormorant-bold-italic wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Бизнес</span>
+                <p class="franchise-plus__list-text text-qanelas-regular wow fadeInUpFull"
+                  data-wow-delay=".2s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Доступные инвестиции от 600 000 рос.руб</p>
+              </li>
+
+              <li class="franchise-plus__list-item">
+                <span class="franchise-plus__list-title text-accent text-cormorant-bold-italic wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Сроки</span>
+                <p class="franchise-plus__list-text text-qanelas-regular wow fadeInUpFull"
+                  data-wow-delay=".2s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Открытие магазина за 30 дней</p>
+              </li>
+
+              <li class="franchise-plus__list-item">
+                <span class="franchise-plus__list-title text-accent text-cormorant-bold-italic wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Поддержка</span>
+                <p class="franchise-plus__list-text text-qanelas-regular wow fadeInUpFull"
+                  data-wow-delay=".2s"
+                  data-wow-offset="50"
+                  data-wow-duration=".6s">Поддержка на всех этапах развития</p>
+              </li>
+            </ul>
+
+
+            <div class="franchise-plus__wrap-btn wrap-btn_above-text wrap-btn">
+              <span class="wrap-btn__text text-tundora">Узнать больше о франшизе</span>
+
+              <a
+                href="example.txt"
+                class="btn franchise-plus__btn"
+                download
+                aria-label="Посмотреть видео">Скачать презентацию</a>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Franchise plus END -->
+
+
+
+    <!-- Cost shop BEGIN -->
+    <div
+      class="cost-shop background-image lazy-responsive"
+      data-bg-mobile="url(img/girl-2.jpg)">
+      <div class="cost-shop__wrap-img responsive-image">
+        <picture>
+          <source srcset="." data-srcset="img/webp/girl-2.webp" type="image/webp">
+          <source srcset="." data-srcset="img/girl-2.jpg" type="image/jpeg">
+          <img
+            data-wow-delay=".1s"
+            data-wow-offset="0"
+            data-wow-duration="1.4s"
+            class="wow fadeInRight lazy"
+            src="."
+            data-src="img/girl-2.jpg"
+            alt="">
+        </picture>
+      </div>
+
+      <div class="container">
+        <div class="cost-shop__content wow fadeInLeft"
+          data-wow-delay=".1s"
+          data-wow-offset="50"
+          data-wow-duration="1.6s">
+
+          <span class="sec-title cost-shop__title">Стоимость открытия магазина</span>
+  
+          <div class="cost-shop__wrap-form wrap-form">
+            <div class="wrap-form__loader responsive-image">
+              <img
+                class="lazy"
+                src="."
+                data-src="img/loader.gif" 
+                alt="">
+            </div>
+
+            <p class="wrap-form__error-message">Ошибка.<br> К сожалению, нам не удалось<br> отправить вашу заявку.</p>
+
+            <p class="wrap-form__success-message">
+              Благодарим за вашу заявку!<br>
+              Мы свяжемся с вами в ближайшее время.
+            </p>
+
+            <form class="cost-shop__form form" data-form-type="feedback-form">
+              <label class="form__wrap-field form__wrap-field_static">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Торговая площадка, м2</span>
+                <input type="text" name="text" class="form__field field-only-number" placeholder="Площадь">
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_select form__wrap-field_static">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Тип помещения</span>
+                <select name="select" data-custom-placeholder="Выберите тип" class="form__select">
+                  <option data-type-option="placeholder" value="">Выберите тип</option>
+                  <option value="value-1">Тип помещения 1</option>
+                  <option value="value-2">Тип помещения 2</option>
+                  <option value="value-3">Тип помещения 3</option>
+                  <option value="value-4">Тип помещения 4</option>
+                </select>
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_static">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваш город</span>
+                <input type="text" name="text" class="form__field field-only-text" placeholder="Ваш город">
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_static">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваш телефон</span>
+                <input type="tel" name="phone" class="form__field" placeholder="Введите номер телефона">
+              </label>
+
+              <div class="cost-shop__wrap-form-btn form__wrap-btn wrap-btn">
+                <button class="btn cost-shop__btn">Узнать сейчас</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Cost shop END -->
+
+
+
+    <!-- Partner BEGIN -->
+    <div
+      class="partner background-image lazy-responsive"
+      data-bg-desktop="url(img/background-second-desktop.jpg)"
+      data-bg-mobile="url(img/background-second-mobile.jpg)">
+      <div class="container">
+
+        <div
+          class="partner__wrap-map-icon responsive-image wow fadeInUp"
+          data-wow-delay=".1s"
+          data-wow-offset="50"
+          data-wow-duration=".8s">
+
+          <img
+            class="lazy partner__icon"
+            src="."
+            data-src="img/icon-map.svg"
+            alt="">
+        </div>
+
+        <span
+          class="sec-title sec-title_light partner__title wow fadeInUp"
+          data-wow-delay=".1s"
+          data-wow-offset="50"
+          data-wow-duration=".8s">Партнёрами SERGE становятся<br> по всему СНГ</span>
+        
+        <p
+          class="partner__subtext wow fadeInUp"
+          data-wow-delay=".2s"
+          data-wow-offset="50"
+          data-wow-duration=".6s">Успейте забронировать свой город и стать частью<br> нашей команды </p>
+        
+        <div class="partner__wrap-btn wrap-btn_above-text wrap-btn">
+          <span class="wrap-btn__text text-light">бесплатная консультация</span>
+          <span
+            role="button"
+            data-popup-key="business-plan"
+            class="btn btn_light partner__btn btn-popup">Получить бизнес-план</span>
+        </div>
+
+      </div>
+    </div>
+    <!-- Partner END -->
+
+
+
+    <!-- Store photos BEGIN -->
+    <div class="store-photos">
+      <div class="container store-photos__wrap-title">
+        <span
+          class="sec-title store-photos__title wow fadeInUp"
+          data-wow-delay=".1s"
+          data-wow-offset="50"
+          data-wow-duration=".7s">Посмотрите, как может выглядеть<br class="d-sm-none d-block"> ваш магазин уже через<br class="d-xm-block d-none"> 30 дней</span>
+      </div>
+
+      <div class="store-photos__wrap-list">
+        <div class="store-photos__list">
+          <div class="store-photos__item">
+            <picture>
+              <source srcset="." data-srcset="img/webp/shop-1.webp" type="image/webp">
+              <source srcset="." data-srcset="img/shop-1.jpg" type="image/jpeg">
+              <img
+                class="lazy store-photos__item-img"
+                src="."
+                data-src="img/shop-1.jpg"
+                alt="">
+            </picture>
+          </div>
+
+          <div class="store-photos__item">
+            <picture>
+              <source srcset="." data-srcset="img/webp/shop-2.webp" type="image/webp">
+              <source srcset="." data-srcset="img/shop-2.jpg" type="image/jpeg">
+              <img
+                class="lazy store-photos__item-img"
+                src="."
+                data-src="img/shop-2.jpg"
+                alt="">
+            </picture>
+          </div>
+
+          <div class="store-photos__item">
+            <picture>
+              <source srcset="." data-srcset="img/webp/shop-3.webp" type="image/webp">
+              <source srcset="." data-srcset="img/shop-3.jpg" type="image/jpeg">
+              <img
+                class="lazy store-photos__item-img"
+                src="."
+                data-src="img/shop-3.jpg"
+                alt="">
+            </picture>
+          </div>
+
+          <div class="store-photos__item">
+            <picture>
+              <source srcset="." data-srcset="img/webp/shop-4.webp" type="image/webp">
+              <source srcset="." data-srcset="img/shop-4.jpg" type="image/jpeg">
+              <img
+                class="lazy store-photos__item-img"
+                src="."
+                data-src="img/shop-4.jpg"
+                alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Store photos END -->
+
+
+
+    <!-- Feedback BEGIN -->
+    <div class="feedback">
+      <div class="container">
+
+        <div class="feedback__content">
+          <div class="feedback__contants">
+            <span
+              class="sec-title feedback__title feedback__title_desktop wow fadeInUp"
+              data-wow-delay=".1s"
+              data-wow-offset="50"
+              data-wow-duration=".7s">Отправьте заявку прямо сейчас<br> и получите бонус на старте </span>
+
+            <span
+              class="text-accent feedback__contants-title text-cormorant-bold-italic d-block wow fadeInUpFull"
+              data-wow-delay=".1s"
+              data-wow-offset="50"
+              data-wow-duration=".7s">Контакты</span>
+
+            <ul class="feedback__contants-list">
+              <li class="feedback__contants-item feedback__contants-item_address">
+                <div
+                  class="feedback__contants-item-wrap-icon wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".4s">
+                  <svg class="feedback__contants-item-svg" width="23" height="30" viewBox="0 0 23 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.5029 0C5.15041 0.00638818 0.0032561 5.05813 0 11.2897C0 17.3526 10.609 29.1011 11.0589 29.5947C11.277 29.8337 11.6513 29.8539 11.8949 29.64C11.9111 29.6258 11.9265 29.6107 11.9411 29.5947C12.391 29.0953 23 17.3526 23 11.2897C22.9967 5.06039 17.8531 0.00958227 11.5029 0ZM11.5029 28.3229C9.47822 25.9999 1.18404 16.2492 1.18404 11.2839C1.18404 5.6934 5.80393 1.16149 11.5029 1.16149C17.2019 1.16149 21.8218 5.6934 21.8218 11.2839C21.8218 16.2492 13.5276 26.0115 11.5029 28.3229Z" fill="#123D77"/>
+                    <path d="M11.7102 5.6626C8.26733 5.66579 5.47892 8.40643 5.48218 11.7839C5.48544 15.1613 8.27917 17.8967 11.722 17.8936C15.1626 17.8904 17.9501 15.1533 17.9501 11.7781C17.9436 8.40099 15.1527 5.66579 11.7102 5.6626ZM11.7102 16.7378C8.92121 16.7378 6.6603 14.5199 6.6603 11.7839C6.6603 9.04789 8.92121 6.82994 11.7102 6.82994C14.4992 6.82994 16.7601 9.04789 16.7601 11.7839C16.7569 14.5186 14.4978 16.7346 11.7102 16.7378Z" fill="#123D77"/>
+                  </svg>
+                </div>
+
+                <address class="feedback__contants-item-text">
+                  <span
+                    class="feedback__contants-item-text-part wow fadeInUpFull"
+                    data-wow-delay=".3s"
+                    data-wow-offset="50"
+                    data-wow-duration=".5s">Республика Беларусь 220026</span>
+                  <span
+                    class="feedback__contants-item-text-part wow fadeInUpFull"
+                    data-wow-delay=".5s"
+                    data-wow-offset="50"
+                    data-wow-duration=".5s">г. Минск, Ул. Жилуновича, 2 «В»,<br class="d-sm-block d-none"> пом. 4</span>
+                </address>
+              </li>
+
+              <li class="feedback__contants-item">
+                <div
+                  class="feedback__contants-item-wrap-icon wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".4s">
+                  <svg class="feedback__contants-item-svg" width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.2899 16.6836C24.1709 16.6836 24.0519 16.6409 23.959 16.5545L18.3928 11.4318C18.1984 11.2534 18.1887 10.9526 18.3716 10.7618C18.5544 10.5692 18.8591 10.5607 19.0555 10.741L24.6217 15.8637C24.8161 16.0421 24.8258 16.3429 24.643 16.5337C24.5472 16.6333 24.4195 16.6836 24.2899 16.6836Z" fill="#123D77"/>
+                    <path d="M5.7095 16.6826C5.58085 16.6826 5.45219 16.6323 5.35642 16.5327C5.17358 16.342 5.18326 16.0412 5.3777 15.8629L10.9459 10.7413C11.1413 10.5629 11.4479 10.5705 11.6298 10.7622C11.8126 10.9529 11.8029 11.2537 11.6085 11.432L6.04034 16.5536C5.94748 16.6399 5.82849 16.6826 5.7095 16.6826Z" fill="#123D77"/>
+                    <path d="M27.5816 21.4463H2.41842C1.08539 21.4463 0 20.3825 0 19.0739V2.89726C0 1.58867 1.08539 0.524902 2.41842 0.524902H27.5816C28.9146 0.524902 30 1.58867 30 2.89726V19.0739C30 20.3825 28.9146 21.4463 27.5816 21.4463ZM2.41842 1.47385C1.61841 1.47385 0.967367 2.11249 0.967367 2.89726V19.0739C0.967367 19.8587 1.61841 20.4973 2.41842 20.4973H27.5816C28.3816 20.4973 29.0326 19.8587 29.0326 19.0739V2.89726C29.0326 2.11249 28.3816 1.47385 27.5816 1.47385H2.41842Z" fill="#123D77"/>
+                    <path d="M15 13.3701C14.3567 13.3701 13.7134 13.1604 13.2239 12.7419L0.802952 2.11273C0.601739 1.94097 0.580457 1.6411 0.755551 1.44277C0.932579 1.24539 1.2373 1.22736 1.43851 1.39722L13.8595 12.0255C14.4777 12.554 15.5224 12.554 16.1396 12.0255L28.5451 1.4143C28.7454 1.24254 29.0501 1.26152 29.2281 1.45985C29.4032 1.65818 29.3828 1.9571 29.1816 2.12981L16.7761 12.741C16.2857 13.1604 15.6433 13.3701 15 13.3701Z" fill="#123D77"/>
+                  </svg>
+                </div>
+
+                <a
+                  target="_blank" href="mailto:franchise@serge-fashion.by"
+                  class="feedback__contants-item-text link-accent-hover wow fadeInUpFull"
+                  data-wow-delay=".3s"
+                  data-wow-offset="50"
+                  data-wow-duration=".5s">franchise@serge-fashion.by</a>
+              </li>
+
+              <li class="feedback__contants-item feedback__contants-item_phones">
+                <div
+                  class="feedback__contants-item-wrap-icon wow fadeInUpFull"
+                  data-wow-delay=".1s"
+                  data-wow-offset="50"
+                  data-wow-duration=".4s">
+                  <svg class="feedback__contants-item-svg" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.1116 29.9736C22.8634 29.9736 21.3559 29.6668 19.698 29.0531C16.0634 27.7089 12.1089 25.0522 8.56309 21.5739C5.01626 18.0946 2.30796 14.2145 0.936658 10.6491C-0.309524 7.4074 -0.312551 4.74673 0.929595 3.52923C1.1082 3.35403 1.28983 3.16596 1.47751 2.97195C2.61068 1.80296 3.89117 0.487472 5.5884 0.546862C6.75789 0.594374 7.89106 1.30705 9.05147 2.72351C12.4802 6.90654 10.9344 8.39723 9.14531 10.1255L8.82948 10.4323C8.53685 10.7194 7.98389 12.0487 13.128 17.0949C14.8071 18.742 16.239 19.9476 17.3832 20.6771C18.1037 21.1364 19.3923 21.8313 19.921 21.3126L20.2389 20.9978C21.9986 19.2468 23.5183 17.7353 27.7795 21.0958C29.2235 22.2341 29.949 23.3447 29.9974 24.4939C30.067 26.1578 28.7159 27.4169 27.5232 28.5275C27.3264 28.7116 27.1347 28.8898 26.9561 29.064C26.3396 29.6698 25.3537 29.9736 24.1116 29.9736ZM5.46731 1.53472C4.26149 1.53472 3.17272 2.65917 2.20908 3.65395C2.01534 3.8539 1.82765 4.0479 1.643 4.22904C0.717694 5.13573 0.811536 7.51826 1.88113 10.3007C3.20299 13.7374 5.82956 17.4928 9.2775 20.8751C12.7244 24.2554 16.5508 26.8319 20.0552 28.1276C22.8917 29.1788 25.3204 29.2679 26.2437 28.3622C26.4284 28.181 26.6262 27.9969 26.83 27.8079C27.8663 26.8418 29.0418 25.747 28.9904 24.5325C28.9551 23.6981 28.3355 22.8003 27.1489 21.8649C23.598 19.0637 22.6051 20.0525 20.9583 21.6907L20.6354 22.0104C19.8484 22.7835 18.5699 22.6122 16.8343 21.5056C15.6305 20.7375 14.1432 19.4883 12.4157 17.7927C8.14635 13.6057 6.7811 11.0431 8.11709 9.72955L8.43898 9.41775C10.113 7.80234 11.1231 6.82736 8.26643 3.34215C7.31085 2.1791 6.39665 1.57134 5.54602 1.53571C5.51978 1.53472 5.49355 1.53472 5.46731 1.53472Z" fill="#123D77"/>
+                  </svg>
+                </div>
+
+                <a
+                  href="tel:+375291382469"
+                  class="feedback__contants-item-text link-accent-hover wow fadeInUpFull"
+                  data-wow-delay=".3s"
+                  data-wow-offset="50"
+                  aria-label="Позвонить на номер +375 29 138-24-69"
+                  data-wow-duration=".5s">+375 29 138-24-69</a>
+                <a
+                  href="tel:+375291382469"
+                  class="feedback__contants-item-text link-accent-hover wow fadeInUpFull"
+                  data-wow-delay=".5s"
+                  data-wow-offset="50"
+                  aria-label="Позвонить на номер +375 29 138-24-69"
+                  data-wow-duration=".5s">+375 29 138-24-69</a>
+              </li>
+            </ul>
+          </div>
+
+          <span
+            class="sec-title feedback__title feedback__title_mobile wow fadeInUp"
+            data-wow-delay=".1s"
+            data-wow-offset="50"
+            data-wow-duration=".7s">Отправьте заявку прямо сейчас<br> и получите бонус на старте </span>
+
+          <div
+            class="feedback__wrap-form wrap-form wow fadeInRight"
+            data-wow-delay=".1s"
+            data-wow-offset="50"
+            data-wow-duration="1.4s">
+            <div class="wrap-form__loader responsive-image">
+              <img
+                class="lazy"
+                src="."
+                data-src="img/loader.gif" 
+                alt="">
+            </div>
+
+            <p class="wrap-form__error-message">Ошибка.<br> К сожалению, нам не удалось<br> отправить вашу заявку.</p>
+
+            <p class="wrap-form__success-message">
+              Благодарим за вашу заявку!<br>
+              Мы свяжемся с вами в ближайшее время.
+            </p>
+
+            <form class="feedback__form form" data-form-type="feedback-form">
+              <label class="form__wrap-field form__wrap-field_dynamic">
+                <input type="text" name="name" class="form__field">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваше имя</span>
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_dynamic">
+                <input type="text" name="text" class="form__field field-only-text">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваш город</span>
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_dynamic">
+                <input type="tel" name="phone" class="form__field">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваш телефон</span>
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_dynamic">
+                <input type="text" name="email" class="form__field">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваш e-mail</span>
+              </label>
+
+              <button class="btn feedback__btn">Отправить</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Feedback END -->
+
+
+
+    <!-- Footer BEGIN -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          
+          <a href="#" class="footer__logo logo responsive-image" aria-label="Перейти на главную страницу">
+            <picture>
+              <source srcset="img/webp/logo.webp" type="image/webp">
+              <source srcset="img/logo.png" type="image/png">
+              <img
+                src="img/logo.png"
+                alt="">
+            </picture>
+          </a>
+
+        </div>
+      </div>
+    </footer>
+    <!-- Footer END -->
+
+
+    
+    <!--Popups BEGIN-->
+    <div class="popup-layer"></div>
+
+    <div class="popup popup-business-plan" data-popup-key="business-plan" role="dialog">
+      <div class="popup__wrap-content">
+        <div class="popup__content">
+
+          <span class="btn-close popup__close"></span>
+
+          <span class="popup__title sec-title">Бизнес-план</span>
+          
+          <div class="wrap-form">
+            <div class="wrap-form__loader responsive-image">
+              <img
+                class="lazy"
+                src="."
+                data-src="img/loader.gif" 
+                alt="">
+            </div>
+
+            <form class="popup__form form" data-form-type="popup-form">
+              <label class="form__wrap-field form__wrap-field_dynamic">
+                <input type="text" name="name" class="form__field">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваше имя</span>
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_dynamic">
+                <input type="text" name="text" class="form__field field-only-text">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваш город</span>
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_dynamic">
+                <input type="tel" name="phone" class="form__field">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваш телефон</span>
+              </label>
+
+              <label class="form__wrap-field form__wrap-field_dynamic">
+                <input type="text" name="email" class="form__field">
+                <span class="form__placeholder text-accent text-cormorant-bold-italic">Ваш e-mail</span>
+              </label>
+
+              <button class="btn popup__btn">Отправить</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="popup popup-message" role="dialog">
+      <div class="popup__wrap-content">
+
+        <div class="popup__content"><span class="btn-close popup__close"></span>
+
+          <div class="popup-message__text popup-message__text_success">
+            <span class="popup__title popup-message__title sec-title sec-title_mb0">Ваша заявка отправлена!</span>
+          </div>
+
+          <div class="popup-message__text popup-message__text_error"><span class="popup__title popup-message__title sec-title">Ошибка.</span>
+            <p class="popup-message__subtext text-tundora">К сожалению, нам не удалось<br> отправить вашу заявку.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--Popups END -->
+    <!--<![endif]-->
+
+
+    <!-- Main script BEGIN --> 
+    <script src="js/scripts.min.js"></script>
+    <!-- Main script END --> 
+
+  </body>
+</html>

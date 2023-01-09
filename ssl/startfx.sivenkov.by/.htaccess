@@ -1,0 +1,47 @@
+ErrorDocument 404 https://startfx.com/ru/index.php
+
+# Cache-Control
+<ifModule mod_headers.c>
+  # 30 дней
+  <filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
+      Header set Cache-Control "max-age=2592000, public"
+  </filesMatch>
+
+  # 30 дней
+  <filesMatch "\.(css|js)$">
+      Header set Cache-Control "max-age=2592000, public"
+  </filesMatch>
+
+  # 30 дней
+  <filesMatch "\.(eot|ttf|otf|woff)$">
+      Header set Cache-Control "max-age=2592000, public"
+  </filesMatch>
+
+  # 2 дня
+  <filesMatch "\.(xml|txt)$">
+      Header set Cache-Control "max-age=172800, public, must-revalidate"
+  </filesMatch>
+
+  # 1 день
+  <filesMatch "\.(html|htm|php)$">
+      Header set Cache-Control "max-age=172800, private, must-revalidate"
+  </filesMatch>
+</ifModule>
+
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+#301 from example.com/page.html to example.com/page
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]

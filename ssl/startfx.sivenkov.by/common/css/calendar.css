@@ -1,0 +1,22 @@
+.section-calendar {
+    padding-top: 20px; }
+.section-calendar .square {
+    width: 100%;
+    height: 33px;
+    background-color: #fff;
+    position: absolute;
+    top: 0; }
+
+.calendar-content {
+    width: 100%;
+    position: relative; }
+
+.calendar-iframe {
+    width: 100%;
+    height: 800px;
+    padding-bottom: 70px;
+    box-sizing: border-box; }
+
+@media (max-width: 992px) {
+    .section-calendar-title {
+        text-align: center; } }

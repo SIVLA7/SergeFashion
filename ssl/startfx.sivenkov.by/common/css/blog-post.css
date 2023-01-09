@@ -1,0 +1,105 @@
+
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: none;
+	display: inline-block;
+	transform: translateY(11px);
+}
+.single-post {
+    position: relative; }
+.backTo {
+  padding-top: 44px;
+  padding-bottom: 42px;
+  position: relative;
+}
+.backTo a,
+.backTo a:hover {
+  padding-left: 25px;
+  color: #5d9d03 !important;
+}
+.backTo a:before {
+  content: '←';
+  position: absolute;
+  top: 41px;
+  left: 0;
+  font-size: 17px;
+}
+.single-post-image {
+    min-height: 450px;
+    background-position: top center; }
+
+.single-post-details {
+    padding-top: 15px;
+    padding-bottom: 10px; }
+.single-post-details span:not(:last-child) {
+    padding-right: 95px; }
+.single-post-details p {
+    font-weight: 300; }
+
+.post-info {
+    font-size: 18px;
+    color: #919191; }
+
+.single-post-title {
+    font-weight: 700;
+    line-height: 1.4; }
+
+.single-post-content {
+    line-height: 1.6; }
+.single-post-content p {
+    padding: 10px 0;
+    font-weight: 300; }
+
+.single-post-share {
+    margin: 50px 0 70px; }
+
+.share-social-icon {
+    display: inline-block;
+    border-radius: 100%;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    margin: 0 8px; }
+.share-social-icon i {
+    display: block;
+    text-align: center; }
+
+.share-social-text {
+    font-weight: 500;
+    color: #919191; }
+
+@media (max-width: 992px) {
+    .single-post-title {
+        font-size: 30px; } }
+
+@media (max-width: 768px) {
+		.backTo { padding-bottom: 0;}
+    .single-post-title {
+        font-size: 20px;
+        padding-top: 0; }
+    .single-post-subtitle {
+        font-size: 18px;
+        padding-top: 10px; }
+    .post-info {
+        font-size: 16px; }
+    .single-post-content {
+        padding-top: 20px;
+        font-size: 14px; }
+    .single-post-content p {
+        padding: 5px 0; }
+    single-post-share {
+        margin: 30px 0 40px; }
+    .single-post-header {
+        position: absolute;
+        top: 10vh;
+        color: #fff; }
+    .single-post-image {
+        min-height: 40vh; }
+    .single-post-date {
+        color: #fff; } }
+
+@media (max-width: 540px) {
+    .single-post-image {
+        background-position: 60%; } }

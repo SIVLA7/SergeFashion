@@ -1,0 +1,79 @@
+.section-blog {
+    padding-top: 20px; }
+.section-blog .post-btn {
+    padding-top: 20px; }
+.blog_box {
+  max-height: 700px;
+  overflow-y: hidden;
+}
+.post-col {
+    padding-bottom: 60px; }
+
+.post-item {
+    padding-top: 15px; }
+
+.post-date {
+    font-family: "MuseoSansCyrl";
+    font-size: 18px;
+    color: #919191;
+    font-weight: 500; }
+
+.post-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5; }
+
+.post-image img {
+    max-width: 100%;
+    width: 100%; }
+
+.post-content {
+    font-weight: 300;
+    min-height: 120px; }
+
+.blog-pagination {
+    padding: 10px 0 70px; }
+
+.blog-pagination ul {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0;
+    margin-bottom: 0; }
+
+.blog-pagination ul li:first-child {
+    margin-left: 0; }
+
+.blog-pagination ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px; }
+
+.blog-pagination ul li a {
+    border: 1px solid #919191;
+    padding: 5px 16px;
+    color: #919191;
+    display: inline-block;
+    vertical-align: middle; }
+
+.blog-pagination ul li a:hover {
+    background: #5d9d03;
+    color: #ffffff;
+    border-color: #5d9d03; }
+
+.blog-pagination ul li a:focus {
+    background: #5d9d03;
+    color: #ffffff; }
+
+@media (max-width: 767px) {
+    .section-blog-title {
+        text-align: center;
+        padding-bottom: 0;
+        line-height: 0.5; }
+    .post-col {
+        padding-bottom: 0;
+        padding-top: 40px; }
+    .section-blog .post-btn {
+        padding-bottom: 25px;
+        border-bottom: 1px solid #e8e8e8; }
+    .blog-pagination {
+        padding: 65px 0 70px; } }

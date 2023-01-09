@@ -1,0 +1,15 @@
+.form__wrap-field_select .select2-container {
+  top: 64% !important;
+}
+
+@media (max-width: 992px) {
+  .form__wrap-field_select .select2-container {
+    top: 61% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .form__wrap-field_select .select2-container {
+    top: 55% !important;
+  }
+}
